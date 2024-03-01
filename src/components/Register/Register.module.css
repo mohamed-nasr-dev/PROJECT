@@ -1,0 +1,47 @@
+.bgContent * {
+    border-radius: 0.5rem;
+}
+
+.bgContent label {
+    background-color: transparent !important;
+}
+
+.bgContent input {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    color: var(--light-color) !important;
+}
+
+label {
+    --bs-body-bg: rgba(0, 0, 0, 0.2) !important;
+    color: var(--light-color) !important;
+}
+.bgForm {
+    padding: 1.5rem;
+    position: relative;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 10px 2px rgba(3, 46, 72, 0.339);
+}
+
+
+.MnH{
+    min-height: 30px;
+}
+.MnH .form-text {
+    white-space: nowrap;
+}
+.modal {
+}
+.bgBackdrop {
+    z-index: 1030 !important; ;
+}
+.bgDialog{
+}
+.bgContent{
+    z-index: -1 !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("../../images/bgForm.jpg");
+    background-size: cover !important;
+    background-position:center;
+    object-fit: cover;
+    color: var(--light-color);
+    border-radius: 0.5rem;
+}

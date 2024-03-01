@@ -1,0 +1,41 @@
+.introContent {
+    padding: var(--spacing);
+    position: absolute;
+}
+
+/* Styles for .intro */
+.intro {
+    color: var(--dark-color);
+    padding: var(--spacing);
+    
+}
+
+/* Styles for .introTitle */
+.introTitle h3 {
+    color: #666;
+    font-weight: 700;
+    font-size: calc(23px + .59231vw);
+    margin-bottom: .7rem;
+    text-indent: .2rem;
+}
+
+.offer {
+    margin-top: var(--spacing);
+}
+.content h3{
+    font-weight: 700;
+    letter-spacing: -.025em;
+    color: #fff;
+    font-size: calc(42px + .99231vw);
+    margin-bottom: 0;
+    line-height: 1em;
+    text-shadow: 2px 2px 2px var(--lightPurple-color);
+}
+
+.offer h3 {
+    color: #666;
+    font-size: calc(33px + .059231vw);
+    margin-bottom: 2.2rem;
+    letter-spacing: -.025em;
+    text-shadow: 2px 2px 2px white;
+}

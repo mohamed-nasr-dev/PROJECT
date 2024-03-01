@@ -1,0 +1,16 @@
+.slider img{
+    cursor: pointer !important;
+    border-radius: 10px !important;
+    opacity: .5 !important;
+    transition: all 0.3s ease-in-out;
+}
+.slider img:hover{
+    opacity: 1 !important;
+}
+.sliderMain img {
+    border-radius: 10px !important;
+}
+.slider {
+    max-height: 600px !important;
+    overflow: hidden;
+}
